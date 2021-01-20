@@ -21,7 +21,7 @@ class NavigationBar extends Component {
                   <Navbar.Collapse id="responsive-navbar-nav">
                       <Nav className="mr-auto">
                         <Nav.Link name="dashboard" as={NavLink} to="/" exact> Dashboard </Nav.Link>
-                        <Nav.Link name="createQuestion" as={NavLink} to="/createQuestion" >Create Question</Nav.Link>
+                        <Nav.Link name="add" as={NavLink} to="/add" >Create Question</Nav.Link>
                         <Nav.Link name="leaderboard" as={NavLink} to="/Leaderboard" >Leaderboard</Nav.Link>
                       </Nav>
 
